@@ -1,0 +1,173 @@
+.bg-page{
+    background: #F2F2F2;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #878DA4;
+}
+.contact{
+    display: flex;
+    width: 1170px;
+    margin: 100px auto;
+}
+.address{
+    width: 1170px;
+    margin: 0 auto;
+}
+.address p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.box-address{
+    margin-top: 97px;
+}
+.box-address h3{
+    font-size: 24px;
+    line-height: 38px;
+    color: #0F1C49;
+    margin: 36px 0 8px 0;
+}
+.box-address p{
+    width: 228px;
+    margin: 0 0 16px 0;
+}
+.numberphone{
+    color: #09A4D8;
+    text-decoration-line: underline;
+}
+font{
+    color: #0F1C49;
+}
+.text-address{
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+    color: #0F1C49;
+    margin: 123px 0 0 0;
+}
+.icon-address{
+    display: flex;
+    width: 128px;
+    justify-content: space-between;
+   
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    background: #F8FBFC;
+    border-radius: 16px;
+    width: 670px;
+    height: 656px;
+    padding: 80px 120px 80px 80px;
+}
+.message h1{
+    font-family: roboto;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0F1C49;
+}
+.message p{
+    width: 444px;
+    padding: 16px 0 40px 0;
+}
+.input-message{
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 16px;
+    padding: 0 0 0 24px;
+    color: #878DA4;
+}
+.input-textaree{
+    height: 200px;
+    resize: none;
+    overflow: 0;
+    padding: 14px 0 0 24px;
+    color: #878DA4;
+    font-family: rubik;
+}
+.input-message::placeholder{
+    color: #878DA4;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1279px ) and (min-width: 768px ){
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 533px;
+    margin-bottom: 40px;
+}
+.box-address{
+    width: 230px;
+    margin-top: 0;
+}
+.text-address{
+    margin: 30px 0 0 0;
+}
+.address{
+    width: 230px;
+    margin: 0 auto;
+}
+.message{
+    width: 328px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.message p{
+    width: 326px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.address{
+    width: 300px;
+}
+.box-address{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.text-address{
+    margin: 25px auto;
+}
+.message{
+    width: 200px;
+    padding: 20px 60px 20px 20px;
+    height: 456px;
+    margin: 0 auto;
+}
+.message h1{
+    font-size: 24px;
+    line-height: 48px;
+}
+.message p{
+    font-size: 14px;
+    width: 200px;
+    padding: 8px 0 20px 0;
+}
+.input-message{
+    padding: 0 0 0 10px;  
+}
+.input-textaree{
+    height: 120px;
+    padding: 4px 0 0 10px;
+}
+.input-message::placeholder{
+    font-size: 14px;
+}
+}
